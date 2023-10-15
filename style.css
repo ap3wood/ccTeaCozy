@@ -1,11 +1,11 @@
 * {
     font-family: Helvetica;
-    font-size: 22px;
+    font-size: 28px;
     color: seashell;
     opacity: 0.9;
 }
 html {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 body {
