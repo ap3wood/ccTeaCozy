@@ -3,43 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tea Cozy</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>The Tea Cozy</title>
 </head>
-<header>
-    <div class="logo">
-        <img src="/resources/images/teaCozy.png" alt="Logo">
-    </div>
-    <nav class="nav-links">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-    </nav>
-</header>
 <body>
-    <div class="jumbotron">
-        <img src="/resources/images/missionBackground.jpg">
-        <h2>Our Mission</h2>
-        <h4>Handpicked, Artisinally Curated, Free Range, Susatinable, Small Batch, Fair Trade, Organic Tea</h4>
-    </div>
-    <div class="main-section">
-        <h2>Tea of the Month</h2>
-        <h4>What's Steeping at the Cozy Tea?</h4>
-        <div class="main-item"></div>        
-        <div class="main-item"></div>        
-        <div class="main-item"></div>        
-        <div class="main-item"></div>        
-        <div class="main-item"></div>        
-    </div>
-    <div class="locations-section">
-        <div class="location-section"></div>
-        <div class="location-section"></div>
-        <div class="location-section"></div>
-    </div>
-    <div class="contact">
-        <h3>The Tea Cozy</h3>
-        <p>contact@theteacozy.com</p>
-        <p>917-555-8094</p>
+    <div class="wrapper">
+    <header>
+        <img id="logo" alt="The Tea Cozy" src="../ccTeaCozy/resources/images/teaCozy.png"/>
+        <nav>
+            <ul>
+                <li><a class="nav-link" alt="Mission" href="#">Mission</a></li>
+                <li><a class="nav-link" alt="Featured Tea" href="#">Featurea Tea</a></li>
+                <li><a class="nav-link" alt="Locations" href="#">Locations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="jumbotron">
+        <hgroup>
+            <h2>Our Mission</h2>
+            <h4>Handpicked, Artisinally Curated, Free Range, Susatinable, Small Batch, Fair Trade, Organic Tea</h4>
+        </hgroup>
+    </section>
+    <section class="featured-teas">
+        <hgroup>
+            <h2>Tea of the Month</h2>
+            <h4>What's Steeping at The Tea Cozy?</h4>
+        </hgroup>
+        <figure>
+            <img class="tea-entry" src="../ccTeaCozy/resources/images/berryblitz.jpg" alt="Fall Berry Blitz Tea"/>
+            <figcaption>Fall Berry Blitz Tea</figcaption>
+        </figure>
+        <figure>
+            <img class="tea-entry" src="../ccTeaCozy/resources/images/spicedRum.jpg" alt="Spiced Rum Tea"/>
+            <figcaption>Spiced Rum Tea</figcaption>
+        </figure>
+        <figure>
+            <img class="tea-entry" src="../ccTeaCozy/resources/images/donut.jpg" alt="Seasonal Donuts"/>
+            <figcaption>Seasonal Donuts</figcaption>
+        </figure>
+        <figure>
+            <img class="tea-entry" src="../ccTeaCozy/resources/images/myrtleAve.jpg" alt="Myrtle Ave Tea"/>
+            <figcaption>Myrtle Ave Tea</figcaption>
+        </figure>
+        <figure>
+            <img class="tea-entry" src="../ccTeaCozy/resources/images/bedfordBizarre.jpg" alt="Bedford Bizarre Tea"/>
+            <figcaption>Bedford Bizarre Tea</figcaption>
+        </figure>
+    </section>
+    <section class="location-info"></section>
+    <Secton class="contact-info"></Secton>
     </div>
 </body>
 </html>
